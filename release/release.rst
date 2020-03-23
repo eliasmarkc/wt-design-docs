@@ -3,8 +3,22 @@
 Release Notes
 =============
 
-unreleased
-----------
+v0.9
+----
+Features:
+
+- Support for storing and using third party API keys from Zenodo, Dataverse, and DataONE
+- Support for registering data from Zenodo
+- Added support for publishing and importing Tales to and from Zenodo
+
+v0.8
+----
+Features:
+
+- A re-designed main page for the dashboard
+- A new, unified, notification system
+- Support for Dataverse hierarchy
+- Added ability to change compute environments
 
 v0.6
 ----

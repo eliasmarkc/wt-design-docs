@@ -3,27 +3,18 @@
 Features and Limitations
 ========================
 
-Key system features of v0.7:
-
-- Authentication using Globus Auth
-- Ability to compose and run tales using Jupyter and RStudio environments
-- Ability to compose tales using data from published sources via HTTP URL 
-  or Digital Object Identifier (DOI). Note that with this release, DOIs 
-  are only supported for `DataONE <https://search.dataone.org/>`_ and 
-  the `Materials Data Facility (MDF) <https://www.materialsdatafacility.org/>`_
-- Ability to share tales with users in the system
-- Home directories (personal data shared across tale environments)
+Key system features of v0.9:
+- Ability to publish Tales to DataONE and Zenodo
+- Ability to import from DataONE, Dataverse, and HTTP(S) sources.
+- Third party integration with DataONE, Zenodo, and Dataverse
+- Daily backups of user data
 - Local registry of Docker images used in the system
-- System monitoring and daily backups of user data  
-- Ability to publish Tales to DataONE
-- Ability to export Tales to zip and bagit, and then run locally
 
 Upcoming features:
-
-- Framework for tale validation
-- Ability to create and remix tale environments
+- Publish to Dataverse
+- Register data from Tapis/Agave providers
+- Tale versioning
 - Provenance capture
-- Publishing to Dataverse
 
 For a complete list of current and planned features, see the
 :ref:`release schedule <milestones>`.

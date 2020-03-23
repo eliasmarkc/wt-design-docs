@@ -252,9 +252,9 @@ software versions. They must also be able to define and share new environments
 that may not be part of the base system.
 
 In v0.6, the base environments are defined by the Recipe and Image models.
-Recipes refer to specific Github repositories and commit hashes.  Imaages are
+Recipes refer to specific Github repositories and commit hashes.  Images are
 the build Docker images stored in the Whole Tale image registry.
 
-In v0.7, we will move to adopt the Binder repo2docker model where users can
+As of v0.7, we have adopted the Binder repo2docker model where users can
 easily customize software in the environment.
 
